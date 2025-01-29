@@ -35,3 +35,28 @@ function myFunction(params) {
 
 
 }
+//stack memory(primitive),heap memory(non primitive)
+let myYoutubename="roshanichaudharydotcom"
+let anothername=myYoutubename
+anothername="chaudharyroshani"
+console.log(myYoutubename);//roshanichaudharydotcom
+console.log(anothername);//chaudharyroshani
+
+let userOne={
+    email:"rosh@.com"
+    upi:"user@bl"
+}
+let userTwo=userOne
+userTwo.email="rosh@8.com"
+console.log(userOne.email);//rosh@8.com
+console.log(userOne.email);//rosh@8.com
+
+
+
+
+
+
+
+
+
+
